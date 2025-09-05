@@ -3,7 +3,193 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile</title>
   </head>
-  <body></body>
+  <body>
+    <div class="header">
+      <div class="header-top">
+        <div class="header-left">
+          <div class="funding-badge">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon icon-funding"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+              />
+            </svg>
+            SKS Funding
+          </div>
+        </div>
+        <div class="header-right">
+          <span class="need-help">Need help</span>
+          <div>
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon icon-notification"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+                />
+              </svg>
+            </span>
+            <div class="dot"></div>
+          </div>
+          <div class="profile-section">
+            <img src="images/human-1.jpg" alt="" class="profile-pic-icon" />
+          </div>
+        </div>
+      </div>
+
+      <div class="header-content">
+        <div class="profile-photo">
+          <img src="images/human-1.jpg" alt="" class="profile-pic" />
+        </div>
+        <div class="welcome-section">
+          <div class="user-details">
+            <h1 class="welcome-text">Hi, Vatsal good gorning 👋</h1>
+            <p class="user-info">Email: skip.vatsal1231@gmail.com</p>
+            <p class="user-info">Phone: +91 8897588843</p>
+            <p class="user-info">Address: PO Box 2103 London, NJ 07036 (USA)</p>
+            <p class="user-info">Goal: $100</p>
+            <p class="user-info">Joined: Mon 22nd Feb 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-completion">
+        <div class="progress-circle"></div>
+        <div>
+          <p>Profile Completionp</p>
+          <p class="please-complete-profile">Please complete profile</p>
+        </div>
+        <a href="#" class="complete-button">COMPLETE</a>
+      </div>
+    </div>
+
+    <!-- <nav class="nav-tabs">
+      <ul class="nav-list">
+        <li class="nav-item active">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon icon-home"
+          >
+            <path
+              d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"
+            />
+            <path
+              d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"
+            />
+          </svg>
+          DASHBOARD
+        </li>
+        <li class="nav-item">NEW CLAIMS</li>
+        <li class="nav-item">COMPLETED CLAIMS</li>
+        <li class="nav-item">PAST CLAIMS</li>
+        <li class="nav-item">MEMBERS</li>
+        <li class="nav-item">MY CLAIMS</li>
+        <a href="#" class="claim-button">CLAIM</a>
+      </ul>
+    </nav> -->
+
+    <div class="main-content">
+      <div class="left-sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">ABOUT MY FAMILY</h3>
+          <div class="sidebar-sub-title">COVERED PERSONS</div>
+          <div>
+            <div class="person-list">
+              <div class="person-avatar">
+                <img src="./images/human-2.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-3.jpg" alt="" class="person" />
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-sub-title">COVERED PERSONS</div>
+          <div>
+            <div class="person-list">
+              <div class="person-avatar">
+                <img src="./images/human-3.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-4.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-5.jpg" alt="" class="person" />
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-sub-title">COVERED PERSONS</div>
+          <div>
+            <div class="person-list">
+              <div class="person-avatar">
+                <img src="./images/human-6.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-7.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-8.jpg" alt="" class="person" />
+              </div>
+              <div class="person-avatar">
+                <img src="./images/human-9.jpg" alt="" class="person" />
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">ABOUT ME</h3>
+            <div class="about-info">
+              <div class="my-info">
+                <p class="info-heading">Email:</p>
+                <p>skip.emma1231@gmail.com</p>
+              </div>
+              <div class="my-info">
+                <p class="info-heading">Phone</p>
+                <p>+91 8897588843</p>
+              </div>
+              <div class="my-info">
+                <p class="info-heading">Address</p>
+                <p>PO Box 2103 London, NJ 07036 (USA)</p>
+              </div>
+              <div class="my-info">
+                <p class="info-heading">Plan</p>
+                <p>$100</p>
+              </div>
+              <div class="my-info">
+                <p class="info-heading">Joined</p>
+                <p>Mon 22nd Feb 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
