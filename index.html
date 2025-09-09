@@ -3,648 +3,738 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
-    <title>Profile</title>
+
+    <title>Document</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-top">
-        <div class="header-left">
-          <div class="funding-badge">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="icon icon-funding"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
-              />
-            </svg>
-            SKS Funding
-          </div>
-        </div>
-        <div class="header-right">
-          <span class="need-help">Need help</span>
-          <div>
-            <span
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="icon icon-notification"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
-                />
-              </svg>
-            </span>
-            <div class="dot"></div>
-          </div>
-          <div class="profile-section">
-            <img src="images/human-1.jpg" alt="" class="profile-pic-icon" />
-          </div>
-        </div>
-      </div>
-
-      <div class="header-content">
-        <div class="profile-photo">
-          <img src="images/human-1.jpg" alt="" class="profile-pic" />
-        </div>
-        <div class="welcome-section">
-          <div class="user-details">
-            <h1 class="welcome-text">Hi, Vatsal good gorning 👋</h1>
-            <p class="user-info">Email: skip.vatsal1231@gmail.com</p>
-            <p class="user-info">Phone: +91 8897588843</p>
-            <p class="user-info">Address: PO Box 2103 London, NJ 07036 (USA)</p>
-            <p class="user-info">Goal: $100</p>
-            <p class="user-info">Joined: Mon 22nd Feb 2019</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="profile-completion">
-        <div class="progress-circle"></div>
-        <div>
-          <p>Profile Completionp</p>
-          <p class="please-complete-profile">Please complete profile</p>
-        </div>
-        <a href="#" class="complete-button">COMPLETE</a>
-      </div>
-    </div>
-
-    <!-- <nav class="nav-tabs">
-      <ul class="nav-list">
-        <li class="nav-item active">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            class="icon icon-home"
-          >
-            <path
-              d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"
-            />
-            <path
-              d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"
-            />
-          </svg>
-          DASHBOARD
-        </li>
-        <li class="nav-item">NEW CLAIMS</li>
-        <li class="nav-item">COMPLETED CLAIMS</li>
-        <li class="nav-item">PAST CLAIMS</li>
-        <li class="nav-item">MEMBERS</li>
-        <li class="nav-item">MY CLAIMS</li>
-        <a href="#" class="claim-button">CLAIM</a>
-      </ul>
-    </nav> -->
-
-    <!-- <div class="main-content">
-      <div class="left-sidebar">
-        <div class="sidebar-section">
-          <h3 class="sidebar-title">ABOUT MY FAMILY</h3>
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-2.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-3.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-3.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-4.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-5.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-6.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-7.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-8.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-9.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-section">
-            <h3 class="sidebar-title">ABOUT ME</h3>
-            <div class="about-info">
-              <div class="my-info">
-                <p class="info-heading">Email:</p>
-                <p>skip.emma1231@gmail.com</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Phone</p>
-                <p>+91 8897588843</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Address</p>
-                <p>PO Box 2103 London, NJ 07036 (USA)</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Plan</p>
-                <p>$100</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Joined</p>
-                <p>Mon 22nd Feb 2019</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+    <!-- <div class="canvas"> -->
     <div class="container">
-      <aside class="sidebar">
-        <div class="sidebar-section">
-          <h3 class="sidebar-title">ABOUT MY FAMILY</h3>
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-2.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-3.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-3.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-4.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-5.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-sub-title">COVERED PERSONS</div>
-          <div>
-            <div class="person-list">
-              <div class="person-avatar">
-                <img src="./images/human-6.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-7.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-8.jpg" alt="" class="person" />
-              </div>
-              <div class="person-avatar">
-                <img src="./images/human-9.jpg" alt="" class="person" />
-              </div>
-            </div>
-          </div>
-
-          <div class="sidebar-section">
-            <h3 class="sidebar-title">ABOUT ME</h3>
-            <div class="about-info">
-              <div class="my-info">
-                <p class="info-heading">Email:</p>
-                <p>skip.emma1231@gmail.com</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Phone</p>
-                <p>+91 8897588843</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Address</p>
-                <p>PO Box 2103 London, NJ 07036 (USA)</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Plan</p>
-                <p>$100</p>
-              </div>
-              <div class="my-info">
-                <p class="info-heading">Joined</p>
-                <p>Mon 22nd Feb 2019</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </aside>
-
-      <main class="main">
+      <header class="header">
         <nav class="nav">
-          <a href="#" class="btn active">
+          <div class="logo">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              class="icon icon-home"
+              class="icon-sks"
             >
               <path
-                d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"
+                d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
               />
               <path
-                d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"
+                d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
               />
             </svg>
-            Dashboard</a
-          >
-          <a href="#" class="btn">New Claims</a>
-          <a href="#" class="btn">Completed Claims</a>
-          <a href="#" class="btn">Past Claims</a>
-          <a href="#" class="btn">Members</a>
-          <a href="#" class="btn">My Claims</a>
-          <a href="#" class="btn btn-claim"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="icon icon-claim"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
-              />
-            </svg>
-            Claim</a
-          >
+
+            <p>SKS Funding</p>
+          </div>
+          <a href="#" class="btn btn--need-help">Need help</a>
+          <a href="#" class="notification">
+            <ion-icon
+              class="notification-icon"
+              name="notifications-outline"
+            ></ion-icon>
+          </a>
+          <a href="#">
+            <img
+              class="profile-img-sm"
+              src="./images/human-1.jpg"
+              alt="Profile img"
+            />
+          </a>
         </nav>
 
-        <section class="stats">
-          <div class="stat">
-            <h2 class="claim-no">23</h2>
-            <div class="new-claims">
-              <h3 class="claim-title">NEW CLAIM</h3>
-              <div class="claim-images">
-                <img src="./images/human-1.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-2.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-3.jpg" alt="" class="person p-claim" />
-                <img
-                  src="./images/human-4.jpg"
-                  alt=""
-                  class="person p-claim claim-gradeant"
-                />
+        <div class="profile">
+          <img
+            src="./images/human-1.jpg"
+            alt="Photo of Emma"
+            class="profile-img"
+          />
+
+          <div class="bio">
+            <p class="greeting">Hi, Vatsal good morning 👋</p>
+            <ul class="bio-details">
+              <li class="bio-detail">
+                <span>Email - </span> akp.emma1231@gmail.com
+              </li>
+              <li class="bio-detail"><span>Phone - </span>+91-8897584843</li>
+              <li class="bio-detail">
+                <span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)
+              </li>
+              <li class="bio-detail"><span>Plan - </span> $100</li>
+              <li class="bio-detail">
+                <span>Joined - </span> Mon 22nd Feb 2019
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile-completion">
+            <div class="progress">
+              <!-- <div class="progress-inner"> -->
+              <p>75%</p>
+              <!-- </div> -->
+            </div>
+            <div>
+              <p class="title">Profile Completion</p>
+              <p class="request">Please complete profile</p>
+              <a href="#" class="btn btn--complete">Complete</a>
+            </div>
+          </div>
+
+          <button class="camera">
+            <ion-icon class="camera-icon" name="camera-outline"></ion-icon>
+          </button>
+        </div>
+      </header>
+
+      <section class="section">
+        <aside class="about">
+          <div class="about-title">
+            <p>About my family</p>
+            <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
+          </div>
+
+          <div class="about-family">
+            <div class="family-category">
+              <p class="family-category-title">Covered persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="./images/human-2.jpg" />
+                <img class="family-img" src="./images/human-3.jpg" />
+              </div>
+            </div>
+
+            <div class="family-category">
+              <p class="family-category-title">Beneficiary persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="./images/human-4.jpg" />
+                <img class="family-img" src="./images/human-5.jpg" />
+                <img class="family-img" src="./images/human-6.jpg" />
+              </div>
+            </div>
+
+            <div class="family-category">
+              <p class="family-category-title">Emergency persons</p>
+              <div class="family-imgs">
+                <img class="family-img" src="./images/human-7.jpg" />
+                <img class="family-img" src="./images/human-8.jpg" />
+                <img class="family-img" src="./images/human-9.jpg" />
+                <img class="family-img" src="./images/human-2.jpg" />
               </div>
             </div>
           </div>
 
-          <div class="stat">
-            <h2 class="claim-no">76</h2>
-            <div class="new-claims">
-              <h3 class="claim-title">NEW MEMBERS</h3>
-              <div class="claim-images">
-                <img src="./images/human-1.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-2.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-3.jpg" alt="" class="person p-claim" />
-                <img
-                  src="./images/human-4.jpg"
-                  alt=""
-                  class="person p-claim claim-gradeant"
-                />
-              </div>
-            </div>
+          <div class="about-title">
+            <p>About me</p>
+            <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
           </div>
 
-          <div class="stat">
-            <h2 class="claim-no">102</h2>
-            <div class="new-claims">
-              <h3 class="claim-title">TOTAL CLAIMS</h3>
-              <div class="claim-images">
-                <img src="./images/human-1.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-2.jpg" alt="" class="person p-claim" />
-                <img src="./images/human-3.jpg" alt="" class="person p-claim" />
-                <img
-                  src="./images/human-4.jpg"
-                  alt=""
-                  class="person p-claim claim-gradeant"
-                />
-              </div>
+          <div class="about-me">
+            <div class="about-me-info">
+              <span>Email</span>
+              <p>akp.emma1231@gmail.com</p>
+            </div>
+            <div class="about-me-info">
+              <span>Phone</span>
+              <p>+91-8897554843</p>
+            </div>
+            <div class="about-me-info">
+              <span>Address</span>
+              <p>Po Box 2103 Linden, NJ 07036 (USA)</p>
+            </div>
+            <div class="about-me-info">
+              <span>Plan</span>
+              <p>$100</p>
+            </div>
+            <div class="about-me-info">
+              <span>Joined</span>
+              <p>Mon 22nd Feb 2019</p>
             </div>
           </div>
-        </section>
+        </aside>
 
-        <section class="content-grid">
-          <div class="claims">
+        <div class="main-container">
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li class="active">
+                <ion-icon class="dashboard-icon" name="home"></ion-icon>
+                <a href="#" class="main-nav-link">Dashboard</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">New claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Completed claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Past claims</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">Members</a>
+              </li>
+              <li>
+                <a href="#" class="main-nav-link">My claims</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn--claim">
+              <img src="icon/banknote.svg" class="icon-pay" />
+              <span>Claim</span>
+            </a>
+          </nav>
+
+          <div class="dashboard">
             <div class="claim-card">
-              <img src="./images/human-2.jpg" alt="" class="claim-card-img" />
-              <div class="claim-information">
-                <h3 class="claim-user">Amelia Kimani</h3>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                    />
-                  </svg>
-
-                  <span>Filed:</span> Thu, Jul 10, 2018 7:30 PM EDT
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z"
-                    />
-                  </svg>
-
-                  <span>Due:</span> Wed, Jul 23, 2019 12:30 PM
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                    />
-                  </svg>
-
-                  <span>Address:</span> Hillside Rd, Nairobi
-                </p>
+              <span class="claim-number">23</span>
+              <div class="claim-text">
+                <p class="claim-title">New claims</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="./images/human-1.jpg" />
+                  <img class="claim-img" src="./images/human-2.jpg" />
+                  <img class="claim-img" src="./images/human-3.jpg" />
+                  <img class="claim-img" src="./images/human-4.jpg" />
+                </div>
               </div>
-              <a href="#" class="pay-btn"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="icon icon-pay"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
-                  />
-                </svg>
-                Pay</a
-              >
-            </div>
-
-            <div class="claim-card">
-              <img src="./images/human-6.jpg" alt="" class="claim-card-img" />
-              <div class="claim-information">
-                <h3 class="claim-user">Genevieve juma</h3>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                    />
-                  </svg>
-
-                  <span>Filed:</span> Thu, Jul 10, 2018 7:30 PM EDT
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z"
-                    />
-                  </svg>
-
-                  <span>Due:</span> Wed, Jul 23, 2019 12:30 PM
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                    />
-                  </svg>
-
-                  <span>Address:</span> Hillside Rd, Nairobi
-                </p>
-              </div>
-              <a href="#" class="pay-btn"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="icon icon-pay"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
-                  />
-                </svg>
-                Pay</a
-              >
             </div>
 
             <div class="claim-card">
-              <img src="./images/human-7.jpg" alt="" class="claim-card-img" />
-              <div class="claim-information">
-                <h3 class="claim-user">Theodore wachira</h3>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
-                    />
-                  </svg>
-
-                  <span>Filed:</span> Thu, Jul 10, 2018 7:30 PM EDT
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z"
-                    />
-                  </svg>
-
-                  <span>Due:</span> Wed, Jul 23, 2019 12:30 PM
-                </p>
-                <p class="claim-user-information">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="icon icon-user"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                    />
-                  </svg>
-
-                  <span>Address:</span> Hillside Rd, Nairobi
-                </p>
+              <span class="claim-number">76</span>
+              <div class="claim-text">
+                <p class="claim-title">New members</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="./images/human-5.jpg" />
+                  <img class="claim-img" src="./images/human-6.jpg" />
+                  <img class="claim-img" src="./images/human-7.jpg" />
+                  <img class="claim-img" src="./images/human-8.jpg" />
+                </div>
               </div>
-              <a href="#" class="pay-btn"
-                ><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="icon icon-pay"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
-                  />
-                </svg>
-                Pay</a
-              >
+            </div>
+
+            <div class="claim-card">
+              <span class="claim-number">102</span>
+              <div class="claim-text">
+                <p class="claim-title">Total claims</p>
+                <div class="claim-imgs">
+                  <img class="claim-img" src="./images/human-9.jpg" />
+                  <img class="claim-img" src="./images/human-1.jpg" />
+                  <img class="claim-img" src="./images/human-2.jpg" />
+                  <img class="claim-img" src="./images/human-3.jpg" />
+                </div>
+              </div>
+            </div>
+
+            <div class="member">
+              <img
+                class="member-img"
+                src="./images/human-2.jpg"
+                alt="Photo of Amelia kimani"
+              />
+
+              <div>
+                <p class="member-name">Amelia Kimani</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn btn--pay">
+                <img src="icon/banknote.svg" class="icon-pay" />
+                <span>Pay</span>
+              </a>
+            </div>
+
+            <div class="member">
+              <img
+                class="member-img"
+                src="./images/human-6.jpg"
+                alt="Photo of Genevieve Juma"
+              />
+
+              <div>
+                <p class="member-name">Genevieve Juma</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn btn--pay">
+                <img src="icon/banknote.svg" class="icon-pay" />
+                <span>Pay</span>
+              </a>
+            </div>
+            <div class="member">
+              <img
+                class="member-img"
+                src="./images/human-9.jpg"
+                alt="Photo of Theodore Wachira"
+              />
+
+              <div>
+                <p class="member-name">Theodore Wachira</p>
+                <ul class="member-details">
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-filed"
+                      name="calendar-clear-outline"
+                    ></ion-icon>
+                    <span>Filed - </span>
+                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-due"
+                      name="calendar-outline"
+                    ></ion-icon>
+                    <span>Due - </span>
+                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                  </li>
+                  <li class="member-detail">
+                    <ion-icon
+                      class="icon-address"
+                      name="location-outline"
+                    ></ion-icon>
+                    <span>Address - </span>
+                    <p>Hillside Rd, Hiranandani...</p>
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="btn btn--pay">
+                <img src="icon/banknote.svg" class="icon-pay" />
+                <span>Pay</span>
+              </a>
+            </div>
+
+            <div class="activity-section">
+              <p class="activity-heading">Activity</p>
+
+              <div class="activities">
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">Claimed $2000</p>
+                  <p class="activity-description">
+                    23 members are got claimed in washington DC
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">3 Claims are waiting</p>
+                  <p class="activity-description">
+                    Please contribute them, they are Waiting for your help
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+
+                <div class="activity">
+                  <div class="activity-bullet"></div>
+                  <p class="activity-title">102 New Members</p>
+                  <p class="activity-description">
+                    We have 102 registrations check out their profiles
+                  </p>
+                  <p class="activity-time">05:40pm</p>
+                </div>
+              </div>
             </div>
           </div>
-          
-          <aside class="activity">
-            <h3 class="title-activity">Activity</h3>
-
-            <ul class="activity-information">
-              <li>Claimed $2000</li>
-              <p>23 members are got claimed in wahington DC</p>
-              <p class="activity-time">05:40 pm</p>
-            </ul>
-
-            <ul class="activity-information">
-              <li>102 New Members</li>
-              <p>23 members are got claimed in wahington DC</p>
-              <p class="activity-time">05:40 pm</p>
-            </ul>
-
-            <ul class="activity-information">
-              <li>Claimed $2000</li>
-              <p>23 members are got claimed in wahington DC</p>
-              <p class="activity-time">05:40 pm</p>
-            </ul>
-
-            <ul class="activity-information">
-              <li>Claimed $2000</li>
-              <p>23 members are got claimed in wahington DC</p>
-              <p class="activity-time">05:40 pm</p>
-            </ul>
-          </aside>
-        </section>
-      </main>
+        </div>
+      </section>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
