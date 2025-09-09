@@ -74,12 +74,12 @@ body {
 .btn.btn--need-help {
   font-size: 1rem;
   color: #cdcdcd;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .btn.btn--need-help:hover,
 .btn.btn--need-help:active {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .notification-icon {
@@ -154,6 +154,7 @@ body {
 
 .bio-detail {
   font-size: 1.2rem;
+  font-weight: 500;
   color: #eee;
 }
 
@@ -165,7 +166,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.2rem;
-  padding: 2.4rem;
+  padding: 2.5rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 0.4rem;
 }
@@ -190,28 +191,6 @@ body {
   display: grid;
   place-items: center;
 }
-
-/* .progress-inner {
-  height: 6.4rem;
-  width: 6.4rem;
-  background-color: #62777e;
-  background-color: #416069;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-} 
-
-.progress-inner p {
-  font-size: 1.4rem;
-  color: #eee;
-  background-color: #86949a;
-  background-color: #819196;
-  height: 5.2rem;
-  width: 5.2rem;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-} */
 
 .profile-completion .title {
   color: #fefefe;
@@ -394,7 +373,7 @@ body {
 .btn.btn--claim {
   font-size: 1.4rem;
   background-color: #0dd39d;
-  padding: 0.6rem 1.2rem;
+  padding: 1rem 1.4rem;
   display: flex;
   align-items: center;
   gap: 0.24rem;
@@ -515,6 +494,7 @@ body {
   color: #cdcdcd;
   font-size: 1.6rem;
   margin-right: 0.8rem;
+  font-weight: 600 !important;
 }
 
 .member-detail span {
@@ -597,6 +577,7 @@ body {
   padding: 0 6.4rem 0 3.2rem;
 }
 
+
 .activity-bullet {
   position: absolute;
   top: 0;
@@ -624,6 +605,12 @@ body {
   font-size: 1.4rem;
   color: #1a1a1a;
   margin-bottom: 0.8rem;
+}
+
+.activity-title:hover{
+  color: #1a1a1a;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .activity-description {
