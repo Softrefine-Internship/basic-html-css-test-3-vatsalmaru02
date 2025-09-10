@@ -491,10 +491,10 @@ body {
 .icon-filed,
 .icon-due,
 .icon-address {
-  color: #cdcdcd;
-  font-size: 1.6rem;
+  color: #7f7d7d;
+  font-size: 1.8rem;
   margin-right: 0.8rem;
-  font-weight: 600 !important;
+  font-weight: 800 !important;
 }
 
 .member-detail span {
@@ -577,7 +577,6 @@ body {
   padding: 0 6.4rem 0 3.2rem;
 }
 
-
 .activity-bullet {
   position: absolute;
   top: 0;
@@ -607,7 +606,7 @@ body {
   margin-bottom: 0.8rem;
 }
 
-.activity-title:hover{
+.activity-title:hover {
   color: #1a1a1a;
   font-weight: 500;
   cursor: pointer;
