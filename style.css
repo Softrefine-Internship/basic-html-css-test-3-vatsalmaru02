@@ -574,7 +574,15 @@ body {
 
 .activity {
   position: relative;
+  width: 36rem;
   padding: 0 6.4rem 0 3.2rem;
+}
+
+.activity:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .activity-bullet {
@@ -604,12 +612,6 @@ body {
   font-size: 1.4rem;
   color: #1a1a1a;
   margin-bottom: 0.8rem;
-}
-
-.activity-title:hover {
-  color: #1a1a1a;
-  font-weight: 500;
-  cursor: pointer;
 }
 
 .activity-description {
